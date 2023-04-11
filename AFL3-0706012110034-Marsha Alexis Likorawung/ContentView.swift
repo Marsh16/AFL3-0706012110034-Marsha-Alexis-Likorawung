@@ -13,13 +13,13 @@ struct ContentView: View {
             Image(systemName: "globe")
                 .imageScale(.large)
                 .foregroundColor(.accentColor)
-            Text("Hello, world!")
+            Text("Hello, Marsha!")
         }
         .padding()
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct test: PreviewProvider {
     static var previews: some View {
         ContentView()
     }

@@ -15,6 +15,7 @@
 		061DB39A29E8EA92008273A4 /* LandmarkRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 061DB39929E8EA92008273A4 /* LandmarkRow.swift */; };
 		061DB39C29E8EB55008273A4 /* LandmarkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 061DB39B29E8EB55008273A4 /* LandmarkList.swift */; };
 		061DB39E29E8EC33008273A4 /* LandmarkDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 061DB39D29E8EC33008273A4 /* LandmarkDetail.swift */; };
+		061DB3A029E8F1B3008273A4 /* FavoriteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 061DB39F29E8F1B3008273A4 /* FavoriteButton.swift */; };
 		0658C28529E4F3A000D991D0 /* AFL3_0706012110034_Marsha_Alexis_LikorawungApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0658C28429E4F3A000D991D0 /* AFL3_0706012110034_Marsha_Alexis_LikorawungApp.swift */; };
 		0658C28729E4F3A000D991D0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0658C28629E4F3A000D991D0 /* ContentView.swift */; };
 		0658C28929E4F3A100D991D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0658C28829E4F3A100D991D0 /* Assets.xcassets */; };
@@ -30,6 +31,7 @@
 		061DB39929E8EA92008273A4 /* LandmarkRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkRow.swift; sourceTree = "<group>"; };
 		061DB39B29E8EB55008273A4 /* LandmarkList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkList.swift; sourceTree = "<group>"; };
 		061DB39D29E8EC33008273A4 /* LandmarkDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkDetail.swift; sourceTree = "<group>"; };
+		061DB39F29E8F1B3008273A4 /* FavoriteButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteButton.swift; sourceTree = "<group>"; };
 		0658C28129E4F3A000D991D0 /* AFL3-0706012110034-Marsha Alexis Likorawung.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AFL3-0706012110034-Marsha Alexis Likorawung.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0658C28429E4F3A000D991D0 /* AFL3_0706012110034_Marsha_Alexis_LikorawungApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AFL3_0706012110034_Marsha_Alexis_LikorawungApp.swift; sourceTree = "<group>"; };
 		0658C28629E4F3A000D991D0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -51,12 +53,7 @@
 		061DB39429E8E9BD008273A4 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				061DB38C29E8E6AE008273A4 /* MapView.swift */,
 				0658C28629E4F3A000D991D0 /* ContentView.swift */,
-				061DB38A29E8E5FF008273A4 /* CircleImage.swift */,
-				061DB39929E8EA92008273A4 /* LandmarkRow.swift */,
-				061DB39B29E8EB55008273A4 /* LandmarkList.swift */,
-				061DB39D29E8EC33008273A4 /* LandmarkDetail.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -78,6 +75,26 @@
 			path = Resources;
 			sourceTree = "<group>";
 		};
+		061DB3A229E8F1DD008273A4 /* Landmarks */ = {
+			isa = PBXGroup;
+			children = (
+				061DB39929E8EA92008273A4 /* LandmarkRow.swift */,
+				061DB39D29E8EC33008273A4 /* LandmarkDetail.swift */,
+				061DB39B29E8EB55008273A4 /* LandmarkList.swift */,
+			);
+			path = Landmarks;
+			sourceTree = "<group>";
+		};
+		061DB3A329E8F1F5008273A4 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				061DB38A29E8E5FF008273A4 /* CircleImage.swift */,
+				061DB39F29E8F1B3008273A4 /* FavoriteButton.swift */,
+				061DB38C29E8E6AE008273A4 /* MapView.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
 		0658C27829E4F3A000D991D0 = {
 			isa = PBXGroup;
 			children = (
@@ -97,6 +114,8 @@
 		0658C28329E4F3A000D991D0 /* AFL3-0706012110034-Marsha Alexis Likorawung */ = {
 			isa = PBXGroup;
 			children = (
+				061DB3A329E8F1F5008273A4 /* Helpers */,
+				061DB3A229E8F1DD008273A4 /* Landmarks */,
 				061DB39829E8EA0F008273A4 /* Resources */,
 				061DB39729E8E9ED008273A4 /* Model */,
 				061DB39429E8E9BD008273A4 /* Views */,
@@ -189,6 +208,7 @@
 				0658C28729E4F3A000D991D0 /* ContentView.swift in Sources */,
 				061DB38D29E8E6AE008273A4 /* MapView.swift in Sources */,
 				0658C28529E4F3A000D991D0 /* AFL3_0706012110034_Marsha_Alexis_LikorawungApp.swift in Sources */,
+				061DB3A029E8F1B3008273A4 /* FavoriteButton.swift in Sources */,
 				061DB39C29E8EB55008273A4 /* LandmarkList.swift in Sources */,
 				061DB39E29E8EC33008273A4 /* LandmarkDetail.swift in Sources */,
 				061DB38B29E8E5FF008273A4 /* CircleImage.swift in Sources */,

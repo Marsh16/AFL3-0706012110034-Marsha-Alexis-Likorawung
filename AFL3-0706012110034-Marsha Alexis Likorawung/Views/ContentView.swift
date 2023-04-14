@@ -9,13 +9,23 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        LandmarkList()
+        //Untuk Melihat Landmark
+//        LandmarkList()
+        
+        //Untuk Melihat Hike
+        VStack {
+            HikeView(hike: ModelData().hikes[0])
+                .padding()
+            Spacer()
+        }
+        
+        //Untuk Melihat Badge
+        //        Badge()
     }
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
-            .environmentObject(ModelData())
+        ContentView() .environmentObject(ModelData())
     }
 }

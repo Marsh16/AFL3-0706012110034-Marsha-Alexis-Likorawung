@@ -13,6 +13,7 @@ struct ContentView: View {
             Text("Turtle Rock")
                 .font(.title)
             Text("Joshua Tree National Park")
+                .font(.subheadline)
         }
     }
 }

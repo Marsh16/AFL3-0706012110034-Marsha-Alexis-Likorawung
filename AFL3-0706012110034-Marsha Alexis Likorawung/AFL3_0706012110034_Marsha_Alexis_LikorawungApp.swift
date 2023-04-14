@@ -11,7 +11,7 @@ import SwiftUI
 struct AFL3_0706012110034_Marsha_Alexis_LikorawungApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MapView()
         }
     }
 }

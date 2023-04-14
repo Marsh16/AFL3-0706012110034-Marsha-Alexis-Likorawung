@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		061DB38B29E8E5FF008273A4 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 061DB38A29E8E5FF008273A4 /* CircleImage.swift */; };
 		0658C28529E4F3A000D991D0 /* AFL3_0706012110034_Marsha_Alexis_LikorawungApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0658C28429E4F3A000D991D0 /* AFL3_0706012110034_Marsha_Alexis_LikorawungApp.swift */; };
 		0658C28729E4F3A000D991D0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0658C28629E4F3A000D991D0 /* ContentView.swift */; };
 		0658C28929E4F3A100D991D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0658C28829E4F3A100D991D0 /* Assets.xcassets */; };
@@ -14,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		061DB38A29E8E5FF008273A4 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 		0658C28129E4F3A000D991D0 /* AFL3-0706012110034-Marsha Alexis Likorawung.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AFL3-0706012110034-Marsha Alexis Likorawung.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0658C28429E4F3A000D991D0 /* AFL3_0706012110034_Marsha_Alexis_LikorawungApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AFL3_0706012110034_Marsha_Alexis_LikorawungApp.swift; sourceTree = "<group>"; };
 		0658C28629E4F3A000D991D0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -55,6 +57,7 @@
 				0658C28629E4F3A000D991D0 /* ContentView.swift */,
 				0658C28829E4F3A100D991D0 /* Assets.xcassets */,
 				0658C28A29E4F3A100D991D0 /* Preview Content */,
+				061DB38A29E8E5FF008273A4 /* CircleImage.swift */,
 			);
 			path = "AFL3-0706012110034-Marsha Alexis Likorawung";
 			sourceTree = "<group>";
@@ -139,6 +142,7 @@
 			files = (
 				0658C28729E4F3A000D991D0 /* ContentView.swift in Sources */,
 				0658C28529E4F3A000D991D0 /* AFL3_0706012110034_Marsha_Alexis_LikorawungApp.swift in Sources */,
+				061DB38B29E8E5FF008273A4 /* CircleImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

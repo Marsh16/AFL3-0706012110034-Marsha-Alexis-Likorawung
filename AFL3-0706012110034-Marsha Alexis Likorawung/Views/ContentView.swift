@@ -7,10 +7,11 @@
 
 import SwiftUI
 
+//untuk menampilkan tampilan utama yang nati akan muncul pada app
 struct ContentView: View {
     var body: some View {
         //Untuk Melihat Landmark
-//        LandmarkList()
+        //        LandmarkList()
         
         //Untuk Melihat Hike
         VStack {
@@ -24,6 +25,7 @@ struct ContentView: View {
     }
 }
 
+//untuk menampilkan preview tampilan utama
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView() .environmentObject(ModelData())

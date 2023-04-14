@@ -7,6 +7,7 @@ The elevation, heart rate, and pace of a hike plotted on a graph.
 
 import SwiftUI
 
+//untuk membuat animasi, dapat dipakai dalam animasi berisi ripple
 extension Animation {
     static func ripple(index: Int) -> Animation {
         Animation.spring(dampingFraction: 0.5)
@@ -15,6 +16,7 @@ extension Animation {
     }
 }
 
+//untuk tampilan graph hike
 struct HikeGraph: View {
     var hike: Hike
     var path: KeyPath<Hike.Observation, Range<Double>>
@@ -56,6 +58,7 @@ struct HikeGraph: View {
     }
 }
 
+//untuk dipakai overall range dari graph
 func rangeOfRanges<C: Collection>(_ ranges: C) -> Range<Double>
     where C.Element == Range<Double> {
     guard !ranges.isEmpty else { return 0..<0 }
@@ -64,10 +67,12 @@ func rangeOfRanges<C: Collection>(_ ranges: C) -> Range<Double>
     return low..<high
 }
 
+//untuk dipakai menentukan range magnitude dari graph
 func magnitude(of range: Range<Double>) -> Double {
     range.upperBound - range.lowerBound
 }
 
+//untuk menampilkan preview graph hike
 struct HikeGraph_Previews: PreviewProvider {
     static var hike = ModelData().hikes[0]
 

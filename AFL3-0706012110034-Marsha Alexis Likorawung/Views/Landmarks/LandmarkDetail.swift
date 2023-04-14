@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+//untuk menampilkan detail landmark setelah di click
 struct LandmarkDetail: View {
     @EnvironmentObject var modelData: ModelData
     var landmark: Landmark
@@ -53,6 +54,7 @@ struct LandmarkDetail: View {
     }
 }
 
+// untuk menampilkan preview detail landmark
 struct LandmarkDetail_Previews: PreviewProvider {
     static let modelData = ModelData()
 

@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+//untuk menampilkan hasil akhir dari badge
 struct Badge: View {
     var badgeSymbols: some View {
         ForEach(0..<8) { index in
@@ -31,6 +32,7 @@ struct Badge: View {
     }
 }
 
+//untuk preview badge, hasil gabungan gambar-gambar badge rotated, simbol, hexagon
 struct Badge_Previews: PreviewProvider {
     static var previews: some View {
         Badge()

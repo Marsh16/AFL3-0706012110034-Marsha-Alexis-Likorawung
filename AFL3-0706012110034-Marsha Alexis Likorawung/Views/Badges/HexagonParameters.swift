@@ -7,6 +7,7 @@
 
 import CoreGraphics
 
+//untuk membuat object hexagon
 struct HexagonParameters {
     struct Segment {
         let line: CGPoint

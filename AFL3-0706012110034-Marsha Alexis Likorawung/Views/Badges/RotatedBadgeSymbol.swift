@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+//untuk melakukan rotate bagde simbol sebanyak berapa masukan di parameter, lalu dapat dipanggil untuk ditampilkan 
 struct RotatedBadgeSymbol: View {
     let angle: Angle
     
@@ -17,6 +18,7 @@ struct RotatedBadgeSymbol: View {
     }
 }
 
+//untuk menampilkan preview badge simbol
 struct RotatedBadgeSymbol_Previews: PreviewProvider {
     static var previews: some View {
         RotatedBadgeSymbol(angle: Angle(degrees: 5))

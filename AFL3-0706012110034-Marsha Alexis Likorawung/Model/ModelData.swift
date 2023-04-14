@@ -8,6 +8,7 @@
 import Foundation
 import Combine
 
+//memasukkan data dari hike data dan landmark data ke modeldata dan dapat diakses melalui ModelData()
 final class ModelData: ObservableObject {
     @Published var landmarks: [Landmark] = load("landmarkData.json")
     var hikes: [Hike] = load("hikeData.json")

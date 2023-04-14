@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+//untuk membuat tombol toggle
 struct FavoriteButton: View {
     @Binding var isSet: Bool
 
@@ -21,6 +22,7 @@ struct FavoriteButton: View {
     }
 }
 
+//untuk preview tombol ini
 struct FavoriteButton_Previews: PreviewProvider {
     static var previews: some View {
         FavoriteButton(isSet: .constant(true))

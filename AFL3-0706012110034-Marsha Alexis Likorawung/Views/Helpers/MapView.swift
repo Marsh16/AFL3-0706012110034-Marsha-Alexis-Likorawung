@@ -8,6 +8,7 @@
 import SwiftUI
 import MapKit
 
+//untuk menampilkan peta berdasarkan lokasi yang ditulis di parameter ini
 struct MapView: View {
     var coordinate: CLLocationCoordinate2D
     @State private var region = MKCoordinateRegion()
@@ -27,6 +28,7 @@ struct MapView: View {
     }
 }
 
+//untuk menampilkan preview map
 struct MapView_Previews: PreviewProvider {
     static var previews: some View {
         MapView(coordinate: CLLocationCoordinate2D(latitude: 34.011_286, longitude: -116.166_868))

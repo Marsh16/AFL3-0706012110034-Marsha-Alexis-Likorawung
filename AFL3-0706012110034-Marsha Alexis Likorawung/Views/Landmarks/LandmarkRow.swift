@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+//untuk membuat card view landmark, nantinya ditampilkan di landmark list
 struct LandmarkRow: View {
     var landmark: Landmark
 
@@ -27,6 +28,7 @@ struct LandmarkRow: View {
     }
 }
 
+//untuk menampilkan preview cardview ini
 struct LandmarkRow_Previews: PreviewProvider {
     static var landmarks = ModelData().landmarks
 

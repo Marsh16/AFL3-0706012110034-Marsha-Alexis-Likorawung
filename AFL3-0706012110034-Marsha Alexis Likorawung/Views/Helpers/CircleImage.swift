@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+//untuk membuat gambar yang dimasukkan pada parameter ini dimodifikasi sesuai isi ini
 struct CircleImage: View {
     var image: Image
 
@@ -20,6 +21,7 @@ struct CircleImage: View {
     }
 }
 
+//untuk menampilkan preview image yang telah di circle
 struct CircleImage_Previews: PreviewProvider {
     static var previews: some View {
         CircleImage(image: Image("turtlerock"))

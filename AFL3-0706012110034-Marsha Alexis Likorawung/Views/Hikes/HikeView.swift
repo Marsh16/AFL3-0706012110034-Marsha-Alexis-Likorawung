@@ -7,6 +7,7 @@ A view displaying information about a hike, including an elevation graph.
 
 import SwiftUI
 
+//untuk meng extend transisi, berisi moveAndFade yang dapat dipanggil sebagai transisi
 extension AnyTransition {
     static var moveAndFade: AnyTransition {
         .asymmetric(
@@ -16,6 +17,7 @@ extension AnyTransition {
     }
 }
 
+//Untuk tampilan Hike
 struct HikeView: View {
     var hike: Hike
     @State private var showDetail = false

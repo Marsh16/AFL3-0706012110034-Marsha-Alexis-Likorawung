@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+//untuk menampilkan background hexagon, membuat warna dll.
 struct BadgeBackground: View {
     var body: some View {
         GeometryReader { geometry in
@@ -55,6 +56,7 @@ struct BadgeBackground: View {
     static let gradientEnd = Color(red: 239.0 / 255, green: 172.0 / 255, blue: 120.0 / 255)
 }
 
+//untuk membuat preview tampilan background
 struct BadgeBackground_Previews: PreviewProvider {
     static var previews: some View {
         BadgeBackground()

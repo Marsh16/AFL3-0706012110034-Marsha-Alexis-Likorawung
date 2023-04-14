@@ -7,6 +7,7 @@
 
 import Foundation
 
+//membuat template object hike
 struct Hike: Codable, Hashable, Identifiable {
     var id: Int
     var name: String

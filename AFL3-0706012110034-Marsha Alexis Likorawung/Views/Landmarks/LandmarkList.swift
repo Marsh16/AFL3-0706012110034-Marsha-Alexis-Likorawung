@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+//untuk menampilakan list landmark yang ada
 struct LandmarkList: View {
     @EnvironmentObject var modelData: ModelData
     @State private var showFavoritesOnly = false
@@ -37,6 +38,7 @@ struct LandmarkList: View {
     }
 }
 
+//untuk menampilkan preview list landmark
 struct LandmarkList_Previews: PreviewProvider {
     static var previews: some View {
         LandmarkList()

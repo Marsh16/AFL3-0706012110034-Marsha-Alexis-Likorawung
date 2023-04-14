@@ -3,20 +3,4 @@
    uuid = "7B7B54F7-3BF5-4E43-B566-EE5BABC58EFA"
    type = "1"
    version = "2.0">
-   <Breakpoints>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "4B4BF234-4EA8-46A1-8004-EEFCA34C98C5"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "AFL3-0706012110034-Marsha Alexis Likorawung/AFL3_0706012110034_Marsha_Alexis_LikorawungApp.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "18"
-            endingLineNumber = "18">
-         </BreakpointContent>
-      </BreakpointProxy>
-   </Breakpoints>
 </Bucket>

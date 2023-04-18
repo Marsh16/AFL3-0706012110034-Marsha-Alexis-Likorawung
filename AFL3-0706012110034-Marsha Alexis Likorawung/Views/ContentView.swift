@@ -11,14 +11,14 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         //Untuk Melihat Landmark
-        //        LandmarkList()
+                LandmarkList()
         
         //Untuk Melihat Hike
-        VStack {
-            HikeView(hike: ModelData().hikes[0])
-                .padding()
-            Spacer()
-        }
+//        VStack {
+//            HikeView(hike: ModelData().hikes[0])
+//                .padding()
+//            Spacer()
+//        }
         
         //Untuk Melihat Badge
         //        Badge()

@@ -7,17 +7,26 @@
 
 import SwiftUI
 
+//merupakan tampilan view categori
 struct CategoryHome: View {
+    @EnvironmentObject var modelData: ModelData
+    
     var body: some View {
         NavigationStack {
-            Text("Hello, World!")
-                .navigationTitle("Featured")
+            List {
+                ForEach(modelData.categories.keys.sorted(), id: \.self) { key in
+                    Text(key)
+                }
+            }
+            .navigationTitle("Featured")
         }
     }
 }
 
+//untuk tampilan preview kategori
 struct CategoryHome_Previews: PreviewProvider {
     static var previews: some View {
         CategoryHome()
+            .environmentObject(ModelData())
     }
 }

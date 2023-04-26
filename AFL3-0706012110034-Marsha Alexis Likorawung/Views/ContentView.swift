@@ -14,11 +14,14 @@ struct ContentView: View {
 //                LandmarkList()
         
         //Untuk Melihat Hike
-        VStack {
-            HikeView(hike: ModelData().hikes[0])
-                .padding()
-            Spacer()
-        }
+//        VStack {
+//            HikeView(hike: ModelData().hikes[0])
+//                .padding()
+//            Spacer()
+//        }
+        
+        //Untuk melihat Category
+        CategoryHome()
         
         //Untuk Melihat Badge
         //        Badge()

@@ -9,22 +9,27 @@ import SwiftUI
 
 //untuk menampilkan tampilan utama yang nati akan muncul pada app
 struct ContentView: View {
+    @State private var selection: Tab = .featured
+    
+    enum Tab {
+        case featured
+        case list
+    }
+    
     var body: some View {
-        //Untuk Melihat Landmark
-//                LandmarkList()
-        
-        //Untuk Melihat Hike
-//        VStack {
-//            HikeView(hike: ModelData().hikes[0])
-//                .padding()
-//            Spacer()
-//        }
-        
-        //Untuk melihat Category
-        CategoryHome()
-        
-        //Untuk Melihat Badge
-        //        Badge()
+        TabView(selection: $selection) {
+            CategoryHome()
+                .tabItem {
+                    Label("Featured", systemImage: "star")
+                }
+                .tag(Tab.featured)
+            
+            LandmarkList()
+                .tabItem {
+                    Label("List", systemImage: "list.bullet")
+                }
+                .tag(Tab.list)
+        }
     }
 }
 

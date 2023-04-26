@@ -63,23 +63,12 @@
 		06663D3C29F91D7000279665 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06663D3929F91D7000279665 /* NotificationController.swift */; };
 		06663D3D29F91D7000279665 /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06663D3A29F91D7000279665 /* NotificationView.swift */; };
 		06663D4229F9237000279665 /* PushNotificationPayload.apns in Resources */ = {isa = PBXBuildFile; fileRef = 06663D4129F9237000279665 /* PushNotificationPayload.apns */; };
+		06D0C3AE29F937A500ACF42D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D0C3AD29F937A500ACF42D /* ContentView.swift */; };
+		06D0C3B029F937A600ACF42D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06D0C3AF29F937A600ACF42D /* Assets.xcassets */; };
+		06D0C3B329F937A600ACF42D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06D0C3B229F937A600ACF42D /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		06663CF529F9164E00279665 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 0658C27929E4F3A000D991D0 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 06663CE429F9164B00279665;
-			remoteInfo = "0706012110034-Marsha Alexis Likorawung-Watch Watch App";
-		};
-		06663CFF29F9164E00279665 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 0658C27929E4F3A000D991D0 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 06663CE429F9164B00279665;
-			remoteInfo = "0706012110034-Marsha Alexis Likorawung-Watch Watch App";
-		};
 		06663D0629F9164E00279665 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 0658C27929E4F3A000D991D0 /* Project object */;
@@ -99,6 +88,26 @@
 				06663D0829F9164E00279665 /* 0706012110034-Marsha Alexis Likorawung-Watch Watch App.app in Embed Watch Content */,
 			);
 			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06D0C36A29F935FA00ACF42D /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06D0C37C29F9362000ACF42D /* Embed ExtensionKit Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(EXTENSIONS_FOLDER_PATH)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			name = "Embed ExtensionKit Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
@@ -145,12 +154,15 @@
 		06663CE929F9164C00279665 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		06663CEB29F9164E00279665 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		06663CEE29F9164E00279665 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		06663CF429F9164E00279665 /* 0706012110034-Marsha Alexis Likorawung-Watch Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "0706012110034-Marsha Alexis Likorawung-Watch Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		06663CFE29F9164E00279665 /* 0706012110034-Marsha Alexis Likorawung-Watch Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "0706012110034-Marsha Alexis Likorawung-Watch Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		06663D3729F919CE00279665 /* LandmarkDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkDetail.swift; sourceTree = "<group>"; };
 		06663D3929F91D7000279665 /* NotificationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
 		06663D3A29F91D7000279665 /* NotificationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
 		06663D4129F9237000279665 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		06D0C3A929F937A500ACF42D /* Marsha Alexis Likorawung-0706012110034-Mac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Marsha Alexis Likorawung-0706012110034-Mac.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		06D0C3AD29F937A500ACF42D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		06D0C3AF29F937A600ACF42D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		06D0C3B229F937A600ACF42D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		06D0C3B429F937A600ACF42D /* Marsha_Alexis_Likorawung_0706012110034_Mac.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Marsha_Alexis_Likorawung_0706012110034_Mac.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -168,14 +180,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		06663CF129F9164E00279665 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		06663CFB29F9164E00279665 /* Frameworks */ = {
+		06D0C3A629F937A500ACF42D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -269,6 +274,7 @@
 			children = (
 				0658C28329E4F3A000D991D0 /* AFL3-0706012110034-Marsha Alexis Likorawung */,
 				06663CE629F9164C00279665 /* 0706012110034-Marsha Alexis Likorawung-Watch Watch App */,
+				06D0C3AA29F937A500ACF42D /* Marsha Alexis Likorawung-0706012110034-Mac */,
 				0658C28229E4F3A000D991D0 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -278,8 +284,7 @@
 			children = (
 				0658C28129E4F3A000D991D0 /* AFL3-0706012110034-Marsha Alexis Likorawung.app */,
 				06663CE529F9164C00279665 /* 0706012110034-Marsha Alexis Likorawung-Watch Watch App.app */,
-				06663CF429F9164E00279665 /* 0706012110034-Marsha Alexis Likorawung-Watch Watch AppTests.xctest */,
-				06663CFE29F9164E00279665 /* 0706012110034-Marsha Alexis Likorawung-Watch Watch AppUITests.xctest */,
+				06D0C3A929F937A500ACF42D /* Marsha Alexis Likorawung-0706012110034-Mac.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -358,6 +363,25 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		06D0C3AA29F937A500ACF42D /* Marsha Alexis Likorawung-0706012110034-Mac */ = {
+			isa = PBXGroup;
+			children = (
+				06D0C3AD29F937A500ACF42D /* ContentView.swift */,
+				06D0C3AF29F937A600ACF42D /* Assets.xcassets */,
+				06D0C3B429F937A600ACF42D /* Marsha_Alexis_Likorawung_0706012110034_Mac.entitlements */,
+				06D0C3B129F937A600ACF42D /* Preview Content */,
+			);
+			path = "Marsha Alexis Likorawung-0706012110034-Mac";
+			sourceTree = "<group>";
+		};
+		06D0C3B129F937A600ACF42D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				06D0C3B229F937A600ACF42D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -387,6 +411,8 @@
 				06663CE129F9164B00279665 /* Sources */,
 				06663CE229F9164B00279665 /* Frameworks */,
 				06663CE329F9164B00279665 /* Resources */,
+				06D0C36A29F935FA00ACF42D /* Embed Foundation Extensions */,
+				06D0C37C29F9362000ACF42D /* Embed ExtensionKit Extensions */,
 			);
 			buildRules = (
 			);
@@ -397,41 +423,22 @@
 			productReference = 06663CE529F9164C00279665 /* 0706012110034-Marsha Alexis Likorawung-Watch Watch App.app */;
 			productType = "com.apple.product-type.application";
 		};
-		06663CF329F9164E00279665 /* 0706012110034-Marsha Alexis Likorawung-Watch Watch AppTests */ = {
+		06D0C3A829F937A500ACF42D /* Marsha Alexis Likorawung-0706012110034-Mac */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 06663D0D29F9164E00279665 /* Build configuration list for PBXNativeTarget "0706012110034-Marsha Alexis Likorawung-Watch Watch AppTests" */;
+			buildConfigurationList = 06D0C3B529F937A600ACF42D /* Build configuration list for PBXNativeTarget "Marsha Alexis Likorawung-0706012110034-Mac" */;
 			buildPhases = (
-				06663CF029F9164E00279665 /* Sources */,
-				06663CF129F9164E00279665 /* Frameworks */,
-				06663CF229F9164E00279665 /* Resources */,
+				06D0C3A529F937A500ACF42D /* Sources */,
+				06D0C3A629F937A500ACF42D /* Frameworks */,
+				06D0C3A729F937A500ACF42D /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				06663CF629F9164E00279665 /* PBXTargetDependency */,
 			);
-			name = "0706012110034-Marsha Alexis Likorawung-Watch Watch AppTests";
-			productName = "0706012110034-Marsha Alexis Likorawung-Watch Watch AppTests";
-			productReference = 06663CF429F9164E00279665 /* 0706012110034-Marsha Alexis Likorawung-Watch Watch AppTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		06663CFD29F9164E00279665 /* 0706012110034-Marsha Alexis Likorawung-Watch Watch AppUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 06663D1029F9164E00279665 /* Build configuration list for PBXNativeTarget "0706012110034-Marsha Alexis Likorawung-Watch Watch AppUITests" */;
-			buildPhases = (
-				06663CFA29F9164E00279665 /* Sources */,
-				06663CFB29F9164E00279665 /* Frameworks */,
-				06663CFC29F9164E00279665 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				06663D0029F9164E00279665 /* PBXTargetDependency */,
-			);
-			name = "0706012110034-Marsha Alexis Likorawung-Watch Watch AppUITests";
-			productName = "0706012110034-Marsha Alexis Likorawung-Watch Watch AppUITests";
-			productReference = 06663CFE29F9164E00279665 /* 0706012110034-Marsha Alexis Likorawung-Watch Watch AppUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
+			name = "Marsha Alexis Likorawung-0706012110034-Mac";
+			productName = "Marsha Alexis Likorawung-0706012110034-Mac";
+			productReference = 06D0C3A929F937A500ACF42D /* Marsha Alexis Likorawung-0706012110034-Mac.app */;
+			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
@@ -449,13 +456,8 @@
 					06663CE429F9164B00279665 = {
 						CreatedOnToolsVersion = 14.3;
 					};
-					06663CF329F9164E00279665 = {
+					06D0C3A829F937A500ACF42D = {
 						CreatedOnToolsVersion = 14.3;
-						TestTargetID = 06663CE429F9164B00279665;
-					};
-					06663CFD29F9164E00279665 = {
-						CreatedOnToolsVersion = 14.3;
-						TestTargetID = 06663CE429F9164B00279665;
 					};
 				};
 			};
@@ -474,8 +476,7 @@
 			targets = (
 				0658C28029E4F3A000D991D0 /* AFL3-0706012110034-Marsha Alexis Likorawung */,
 				06663CE429F9164B00279665 /* 0706012110034-Marsha Alexis Likorawung-Watch Watch App */,
-				06663CF329F9164E00279665 /* 0706012110034-Marsha Alexis Likorawung-Watch Watch AppTests */,
-				06663CFD29F9164E00279665 /* 0706012110034-Marsha Alexis Likorawung-Watch Watch AppUITests */,
+				06D0C3A829F937A500ACF42D /* Marsha Alexis Likorawung-0706012110034-Mac */,
 			);
 		};
 /* End PBXProject section */
@@ -505,17 +506,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		06663CF229F9164E00279665 /* Resources */ = {
+		06D0C3A729F937A500ACF42D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		06663CFC29F9164E00279665 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				06D0C3B329F937A600ACF42D /* Preview Assets.xcassets in Resources */,
+				06D0C3B029F937A600ACF42D /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -581,33 +577,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		06663CF029F9164E00279665 /* Sources */ = {
+		06D0C3A529F937A500ACF42D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		06663CFA29F9164E00279665 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				06D0C3AE29F937A500ACF42D /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		06663CF629F9164E00279665 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 06663CE429F9164B00279665 /* 0706012110034-Marsha Alexis Likorawung-Watch Watch App */;
-			targetProxy = 06663CF529F9164E00279665 /* PBXContainerItemProxy */;
-		};
-		06663D0029F9164E00279665 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 06663CE429F9164B00279665 /* 0706012110034-Marsha Alexis Likorawung-Watch Watch App */;
-			targetProxy = 06663CFF29F9164E00279665 /* PBXContainerItemProxy */;
-		};
 		06663D0729F9164E00279665 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 06663CE429F9164B00279665 /* 0706012110034-Marsha Alexis Likorawung-Watch Watch App */;
@@ -821,7 +801,7 @@
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+				WATCHOS_DEPLOYMENT_TARGET = 9.0;
 			};
 			name = Debug;
 		};
@@ -852,89 +832,65 @@
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+				WATCHOS_DEPLOYMENT_TARGET = 9.0;
 			};
 			name = Release;
 		};
-		06663D0E29F9164E00279665 /* Debug */ = {
+		06D0C3B629F937A600ACF42D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Marsha Alexis Likorawung-0706012110034-Mac/Marsha_Alexis_Likorawung_0706012110034_Mac.entitlements";
 				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Marsha Alexis Likorawung-0706012110034-Mac/Preview Content\"";
 				DEVELOPMENT_TEAM = 7573MGT656;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "uc.-706012110034-Marsha-Alexis-Likorawung-Watch-Watch-AppTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "uc.Marsha-Alexis-Likorawung-0706012110034-Mac";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = watchos;
-				SWIFT_EMIT_LOC_STRINGS = NO;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 4;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/0706012110034-Marsha Alexis Likorawung-Watch Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/0706012110034-Marsha Alexis Likorawung-Watch Watch App";
-				WATCHOS_DEPLOYMENT_TARGET = 9.4;
 			};
 			name = Debug;
 		};
-		06663D0F29F9164E00279665 /* Release */ = {
+		06D0C3B729F937A600ACF42D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Marsha Alexis Likorawung-0706012110034-Mac/Marsha_Alexis_Likorawung_0706012110034_Mac.entitlements";
 				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Marsha Alexis Likorawung-0706012110034-Mac/Preview Content\"";
 				DEVELOPMENT_TEAM = 7573MGT656;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "uc.-706012110034-Marsha-Alexis-Likorawung-Watch-Watch-AppTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "uc.Marsha-Alexis-Likorawung-0706012110034-Mac";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = watchos;
-				SWIFT_EMIT_LOC_STRINGS = NO;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 4;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/0706012110034-Marsha Alexis Likorawung-Watch Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/0706012110034-Marsha Alexis Likorawung-Watch Watch App";
-				WATCHOS_DEPLOYMENT_TARGET = 9.4;
-			};
-			name = Release;
-		};
-		06663D1129F9164E00279665 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 7573MGT656;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "uc.-706012110034-Marsha-Alexis-Likorawung-Watch-Watch-AppUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = watchos;
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 4;
-				TEST_TARGET_NAME = "0706012110034-Marsha Alexis Likorawung-Watch Watch App";
-				WATCHOS_DEPLOYMENT_TARGET = 9.4;
-			};
-			name = Debug;
-		};
-		06663D1229F9164E00279665 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 7573MGT656;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "uc.-706012110034-Marsha-Alexis-Likorawung-Watch-Watch-AppUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = watchos;
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 4;
-				TEST_TARGET_NAME = "0706012110034-Marsha Alexis Likorawung-Watch Watch App";
-				WATCHOS_DEPLOYMENT_TARGET = 9.4;
 			};
 			name = Release;
 		};
@@ -968,20 +924,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		06663D0D29F9164E00279665 /* Build configuration list for PBXNativeTarget "0706012110034-Marsha Alexis Likorawung-Watch Watch AppTests" */ = {
+		06D0C3B529F937A600ACF42D /* Build configuration list for PBXNativeTarget "Marsha Alexis Likorawung-0706012110034-Mac" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				06663D0E29F9164E00279665 /* Debug */,
-				06663D0F29F9164E00279665 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		06663D1029F9164E00279665 /* Build configuration list for PBXNativeTarget "0706012110034-Marsha Alexis Likorawung-Watch Watch AppUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				06663D1129F9164E00279665 /* Debug */,
-				06663D1229F9164E00279665 /* Release */,
+				06D0C3B629F937A600ACF42D /* Debug */,
+				06D0C3B729F937A600ACF42D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

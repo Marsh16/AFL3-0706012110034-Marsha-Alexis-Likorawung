@@ -14,15 +14,17 @@ class NotificationController: WKUserNotificationHostingController<NotificationVi
     var landmark: Landmark?
     var title: String?
     var message: String?
-
+    
     let landmarkIndexKey = "landmarkIndex"
-
+    
     override var body: NotificationView {
-        NotificationView(title: title,
+        NotificationView(
+            title: title,
             message: message,
-            landmark: landmark)
+            landmark: landmark
+        )
     }
-
+    
     override func willActivate() {
         // This method is called when watch view controller is about to be visible to user
         super.willActivate()

@@ -4,11 +4,6 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>0706012110034-Marsha Alexis Likorawung-Watch Watch App 1.xcscheme_^#shared#^_</key>
-		<dict>
-			<key>orderHint</key>
-			<integer>2</integer>
-		</dict>
 		<key>0706012110034-Marsha Alexis Likorawung-Watch Watch App.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
@@ -19,10 +14,15 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
-		<key>Watch (Notification).xcscheme_^#shared#^_</key>
+		<key>Marsha Alexis Likorawung-0706012110034-Mac.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>3</integer>
+		</dict>
+		<key>Watch (Notification).xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
@@ -43,6 +43,31 @@
 			<true/>
 		</dict>
 		<key>06663CFD29F9164E00279665</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>06D0C34B29F9357500ACF42D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>06D0C35E29F935F900ACF42D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>06D0C36E29F9362000ACF42D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>06D0C38029F936DC00ACF42D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>06D0C39529F9375900ACF42D</key>
 		<dict>
 			<key>primary</key>
 			<true/>

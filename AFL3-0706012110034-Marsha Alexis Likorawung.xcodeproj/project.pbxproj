@@ -60,6 +60,9 @@
 		06663D1D29F9186F00279665 /* AFL3_0706012110034_Marsha_Alexis_LikorawungApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0658C28429E4F3A000D991D0 /* AFL3_0706012110034_Marsha_Alexis_LikorawungApp.swift */; };
 		06663D1E29F9186F00279665 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 061DB39229E8E98C008273A4 /* ModelData.swift */; };
 		06663D3829F919CE00279665 /* LandmarkDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06663D3729F919CE00279665 /* LandmarkDetail.swift */; };
+		06663D3C29F91D7000279665 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06663D3929F91D7000279665 /* NotificationController.swift */; };
+		06663D3D29F91D7000279665 /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06663D3A29F91D7000279665 /* NotificationView.swift */; };
+		06663D4229F9237000279665 /* PushNotificationPayload.apns in Resources */ = {isa = PBXBuildFile; fileRef = 06663D4129F9237000279665 /* PushNotificationPayload.apns */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -145,6 +148,9 @@
 		06663CF429F9164E00279665 /* 0706012110034-Marsha Alexis Likorawung-Watch Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "0706012110034-Marsha Alexis Likorawung-Watch Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		06663CFE29F9164E00279665 /* 0706012110034-Marsha Alexis Likorawung-Watch Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "0706012110034-Marsha Alexis Likorawung-Watch Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		06663D3729F919CE00279665 /* LandmarkDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkDetail.swift; sourceTree = "<group>"; };
+		06663D3929F91D7000279665 /* NotificationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		06663D3A29F91D7000279665 /* NotificationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
+		06663D4129F9237000279665 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -337,6 +343,9 @@
 				06663CEB29F9164E00279665 /* Assets.xcassets */,
 				06663CED29F9164E00279665 /* Preview Content */,
 				06663D3729F919CE00279665 /* LandmarkDetail.swift */,
+				06663D3929F91D7000279665 /* NotificationController.swift */,
+				06663D3A29F91D7000279665 /* NotificationView.swift */,
+				06663D4129F9237000279665 /* PushNotificationPayload.apns */,
 			);
 			path = "0706012110034-Marsha Alexis Likorawung-Watch Watch App";
 			sourceTree = "<group>";
@@ -492,6 +501,7 @@
 				06663D1629F9186F00279665 /* Assets.xcassets in Resources */,
 				06663CEC29F9164E00279665 /* Assets.xcassets in Resources */,
 				06663D1829F9186F00279665 /* hikeData.json in Resources */,
+				06663D4229F9237000279665 /* PushNotificationPayload.apns in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -558,9 +568,11 @@
 				06663CEA29F9164C00279665 /* ContentView.swift in Sources */,
 				06663D1C29F9186F00279665 /* Profile.swift in Sources */,
 				06663D1429F9186F00279665 /* MapView.swift in Sources */,
+				06663D3D29F91D7000279665 /* NotificationView.swift in Sources */,
 				06663D1A29F9186F00279665 /* LandmarkRow.swift in Sources */,
 				06663D1D29F9186F00279665 /* AFL3_0706012110034_Marsha_Alexis_LikorawungApp.swift in Sources */,
 				06663D1B29F9186F00279665 /* Hike.swift in Sources */,
+				06663D3C29F91D7000279665 /* NotificationController.swift in Sources */,
 				06663D1329F9186F00279665 /* CircleImage.swift in Sources */,
 				06663D1E29F9186F00279665 /* ModelData.swift in Sources */,
 				06663D1529F9186F00279665 /* LandmarkList.swift in Sources */,

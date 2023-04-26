@@ -49,7 +49,6 @@
 		06663D0829F9164E00279665 /* 0706012110034-Marsha Alexis Likorawung-Watch Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 06663CE529F9164C00279665 /* 0706012110034-Marsha Alexis Likorawung-Watch Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		06663D1329F9186F00279665 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 061DB38A29E8E5FF008273A4 /* CircleImage.swift */; };
 		06663D1429F9186F00279665 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 061DB38C29E8E6AE008273A4 /* MapView.swift */; };
-		06663D1529F9186F00279665 /* LandmarkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 061DB39B29E8EB55008273A4 /* LandmarkList.swift */; };
 		06663D1629F9186F00279665 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0658C28829E4F3A100D991D0 /* Assets.xcassets */; };
 		06663D1729F9186F00279665 /* landmarkData.json in Resources */ = {isa = PBXBuildFile; fileRef = 061DB38E29E8E8B5008273A4 /* landmarkData.json */; };
 		06663D1829F9186F00279665 /* hikeData.json in Resources */ = {isa = PBXBuildFile; fileRef = 061DB3AF29E8F628008273A4 /* hikeData.json */; };
@@ -66,6 +65,24 @@
 		06D0C3AE29F937A500ACF42D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D0C3AD29F937A500ACF42D /* ContentView.swift */; };
 		06D0C3B029F937A600ACF42D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06D0C3AF29F937A600ACF42D /* Assets.xcassets */; };
 		06D0C3B329F937A600ACF42D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06D0C3B229F937A600ACF42D /* Preview Assets.xcassets */; };
+		06D0C3B829F95E6900ACF42D /* Landmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 061DB39029E8E8D7008273A4 /* Landmark.swift */; };
+		06D0C3B929F95E6900ACF42D /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06663CCD29F90C6300279665 /* Profile.swift */; };
+		06D0C3BA29F95E6900ACF42D /* LandmarkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 061DB39B29E8EB55008273A4 /* LandmarkList.swift */; };
+		06D0C3BB29F95E6900ACF42D /* LandmarkRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 061DB39929E8EA92008273A4 /* LandmarkRow.swift */; };
+		06D0C3BC29F95E6900ACF42D /* FavoriteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 061DB39F29E8F1B3008273A4 /* FavoriteButton.swift */; };
+		06D0C3BD29F95E6900ACF42D /* hikeData.json in Resources */ = {isa = PBXBuildFile; fileRef = 061DB3AF29E8F628008273A4 /* hikeData.json */; };
+		06D0C3BE29F95E6900ACF42D /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 061DB38A29E8E5FF008273A4 /* CircleImage.swift */; };
+		06D0C3BF29F95E6900ACF42D /* landmarkData.json in Resources */ = {isa = PBXBuildFile; fileRef = 061DB38E29E8E8B5008273A4 /* landmarkData.json */; };
+		06D0C3C029F95E6900ACF42D /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 061DB39229E8E98C008273A4 /* ModelData.swift */; };
+		06D0C3C129F95E6900ACF42D /* AFL3_0706012110034_Marsha_Alexis_LikorawungApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0658C28429E4F3A000D991D0 /* AFL3_0706012110034_Marsha_Alexis_LikorawungApp.swift */; };
+		06D0C3C229F95E6900ACF42D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0658C28829E4F3A100D991D0 /* Assets.xcassets */; };
+		06D0C3C329F95E6900ACF42D /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 061DB38C29E8E6AE008273A4 /* MapView.swift */; };
+		06D0C3C429F95E6900ACF42D /* Hike.swift in Sources */ = {isa = PBXBuildFile; fileRef = 061DB3B129E8F649008273A4 /* Hike.swift */; };
+		06D0C3C929F95F0B00ACF42D /* LandmarkDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D0C3C629F95F0B00ACF42D /* LandmarkDetail.swift */; };
+		06D0C3CC29F9602800ACF42D /* LandmarkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D0C3CB29F9602800ACF42D /* LandmarkList.swift */; };
+		06D0C3CE29F9621700ACF42D /* LandmarkCommands.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D0C3CD29F9621700ACF42D /* LandmarkCommands.swift */; };
+		06D0C3D029F964CD00ACF42D /* LandmarkCommands.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D0C3CD29F9621700ACF42D /* LandmarkCommands.swift */; };
+		06D0C3D229F9653800ACF42D /* LandmarkSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D0C3D129F9653800ACF42D /* LandmarkSettings.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -163,6 +180,10 @@
 		06D0C3AF29F937A600ACF42D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		06D0C3B229F937A600ACF42D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		06D0C3B429F937A600ACF42D /* Marsha_Alexis_Likorawung_0706012110034_Mac.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Marsha_Alexis_Likorawung_0706012110034_Mac.entitlements; sourceTree = "<group>"; };
+		06D0C3C629F95F0B00ACF42D /* LandmarkDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LandmarkDetail.swift; sourceTree = "<group>"; };
+		06D0C3CB29F9602800ACF42D /* LandmarkList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LandmarkList.swift; sourceTree = "<group>"; };
+		06D0C3CD29F9621700ACF42D /* LandmarkCommands.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkCommands.swift; sourceTree = "<group>"; };
+		06D0C3D129F9653800ACF42D /* LandmarkSettings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LandmarkSettings.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -348,6 +369,7 @@
 				06663CEB29F9164E00279665 /* Assets.xcassets */,
 				06663CED29F9164E00279665 /* Preview Content */,
 				06663D3729F919CE00279665 /* LandmarkDetail.swift */,
+				06D0C3CB29F9602800ACF42D /* LandmarkList.swift */,
 				06663D3929F91D7000279665 /* NotificationController.swift */,
 				06663D3A29F91D7000279665 /* NotificationView.swift */,
 				06663D4129F9237000279665 /* PushNotificationPayload.apns */,
@@ -367,9 +389,12 @@
 			isa = PBXGroup;
 			children = (
 				06D0C3AD29F937A500ACF42D /* ContentView.swift */,
+				06D0C3C629F95F0B00ACF42D /* LandmarkDetail.swift */,
+				06D0C3D129F9653800ACF42D /* LandmarkSettings.swift */,
 				06D0C3AF29F937A600ACF42D /* Assets.xcassets */,
 				06D0C3B429F937A600ACF42D /* Marsha_Alexis_Likorawung_0706012110034_Mac.entitlements */,
 				06D0C3B129F937A600ACF42D /* Preview Content */,
+				06D0C3CD29F9621700ACF42D /* LandmarkCommands.swift */,
 			);
 			path = "Marsha Alexis Likorawung-0706012110034-Mac";
 			sourceTree = "<group>";
@@ -511,7 +536,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				06D0C3B329F937A600ACF42D /* Preview Assets.xcassets in Resources */,
+				06D0C3BF29F95E6900ACF42D /* landmarkData.json in Resources */,
+				06D0C3BD29F95E6900ACF42D /* hikeData.json in Resources */,
 				06D0C3B029F937A600ACF42D /* Assets.xcassets in Resources */,
+				06D0C3C229F95E6900ACF42D /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -524,6 +552,7 @@
 			files = (
 				06663CCA29F9084600279665 /* CategoryRow.swift in Sources */,
 				06663CCE29F90C6300279665 /* Profile.swift in Sources */,
+				06D0C3D029F964CD00ACF42D /* LandmarkCommands.swift in Sources */,
 				0658C28729E4F3A000D991D0 /* ContentView.swift in Sources */,
 				06663CC829F9058700279665 /* CategoryHome.swift in Sources */,
 				061DB3B929E8F697008273A4 /* HikeGraph.swift in Sources */,
@@ -564,6 +593,7 @@
 				06663CEA29F9164C00279665 /* ContentView.swift in Sources */,
 				06663D1C29F9186F00279665 /* Profile.swift in Sources */,
 				06663D1429F9186F00279665 /* MapView.swift in Sources */,
+				06D0C3CC29F9602800ACF42D /* LandmarkList.swift in Sources */,
 				06663D3D29F91D7000279665 /* NotificationView.swift in Sources */,
 				06663D1A29F9186F00279665 /* LandmarkRow.swift in Sources */,
 				06663D1D29F9186F00279665 /* AFL3_0706012110034_Marsha_Alexis_LikorawungApp.swift in Sources */,
@@ -571,7 +601,6 @@
 				06663D3C29F91D7000279665 /* NotificationController.swift in Sources */,
 				06663D1329F9186F00279665 /* CircleImage.swift in Sources */,
 				06663D1E29F9186F00279665 /* ModelData.swift in Sources */,
-				06663D1529F9186F00279665 /* LandmarkList.swift in Sources */,
 				06663D1929F9186F00279665 /* Landmark.swift in Sources */,
 				06663D3829F919CE00279665 /* LandmarkDetail.swift in Sources */,
 			);
@@ -582,6 +611,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				06D0C3AE29F937A500ACF42D /* ContentView.swift in Sources */,
+				06D0C3CE29F9621700ACF42D /* LandmarkCommands.swift in Sources */,
+				06D0C3D229F9653800ACF42D /* LandmarkSettings.swift in Sources */,
+				06D0C3B929F95E6900ACF42D /* Profile.swift in Sources */,
+				06D0C3B829F95E6900ACF42D /* Landmark.swift in Sources */,
+				06D0C3BE29F95E6900ACF42D /* CircleImage.swift in Sources */,
+				06D0C3C429F95E6900ACF42D /* Hike.swift in Sources */,
+				06D0C3C129F95E6900ACF42D /* AFL3_0706012110034_Marsha_Alexis_LikorawungApp.swift in Sources */,
+				06D0C3BC29F95E6900ACF42D /* FavoriteButton.swift in Sources */,
+				06D0C3C929F95F0B00ACF42D /* LandmarkDetail.swift in Sources */,
+				06D0C3C029F95E6900ACF42D /* ModelData.swift in Sources */,
+				06D0C3C329F95E6900ACF42D /* MapView.swift in Sources */,
+				06D0C3BB29F95E6900ACF42D /* LandmarkRow.swift in Sources */,
+				06D0C3BA29F95E6900ACF42D /* LandmarkList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
